@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-console.log('Hola');
+
 const Counter = ({initialValue,suma}) => {
     const [counter, setCounter] = useState(initialValue);
     const increment = () => {
